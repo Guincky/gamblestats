@@ -1,0 +1,8 @@
+.list-group-dark {
+    text-align: left;
+    border-radius: 15px;
+}
+.list-group-item {
+    background: rgb(59, 59, 59);
+    color: white;
+}

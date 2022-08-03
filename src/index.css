@@ -1,13 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+    background-image: url('https://a-static.mlcdn.com.br/800x560/fundo-fotografico-em-tecido-campo-de-futebol-1149-175-l-x-120-a-horizontal-loja-de-fundos-fotograficos-em-tecido/uvamais/fftmt1149-175-l-x-120-a-horizontal/453abd74c470a200848e3c0fa56651a3.jpeg');
+    background-size: cover;
 }
