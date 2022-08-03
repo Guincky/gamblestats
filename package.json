@@ -2,7 +2,7 @@
   "name": "painel-tips",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "painel-tips/",
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
