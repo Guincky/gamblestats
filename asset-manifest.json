@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f566750.css",
-    "main.js": "/static/js/main.080d6d5b.js",
-    "index.html": "/index.html",
-    "main.9f566750.css.map": "/static/css/main.9f566750.css.map",
-    "main.080d6d5b.js.map": "/static/js/main.080d6d5b.js.map"
+    "main.css": "https://warleyserafim.github.io/painel-tips/static/css/main.9f566750.css",
+    "main.js": "https://warleyserafim.github.io/painel-tips/static/js/main.080d6d5b.js",
+    "index.html": "https://warleyserafim.github.io/painel-tips/index.html",
+    "main.9f566750.css.map": "https://warleyserafim.github.io/painel-tips/static/css/main.9f566750.css.map",
+    "main.080d6d5b.js.map": "https://warleyserafim.github.io/painel-tips/static/js/main.080d6d5b.js.map"
   },
   "entrypoints": [
     "static/css/main.9f566750.css",
