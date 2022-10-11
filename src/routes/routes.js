@@ -10,7 +10,7 @@ const Routes = () => {
             <Header />
             <Switch>
 
-                <Route path="/" exact component={ JogosDia } />
+                <Route path="/painel-tips" exact component={ JogosDia } />
                 <Route path="/jogos_amanha" component={ JogosAmanha } />
             </Switch>
         </Router>

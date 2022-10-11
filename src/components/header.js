@@ -13,7 +13,7 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="/">Jogos de Hoje</Nav.Link>
+                <Nav.Link href="/painel_tips">Jogos de Hoje</Nav.Link>
                 <Nav.Link href="/jogos_amanha">Jogos de Amanha</Nav.Link>
               </Nav>
             </Navbar.Collapse>
