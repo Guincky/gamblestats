@@ -50,8 +50,6 @@ function JogosDia() {
   data();
 }, []);
 
-console.log(jogos);
-
   function formatPalpite(palpite) {
     if (palpite === "1") {
       return "Casa vence";
