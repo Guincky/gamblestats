@@ -58,15 +58,19 @@ function JogosDia() {
     } else if (palpite === "2") {
       return "Fora vence";
     } else if(palpite === "1X"){
+      if (palpite > 90) {
+        return "Casa Vence";
+      } else {
       return "Casa ou Empate";
+      }
     } else if(palpite === "X2"){
-      return "Empate ou Fora";
+      return "Fora ou Empate";
     }else if(palpite === "12"){
       return "Casa ou Fora";
     } else if(palpite === "No"){
-      return "Não"
+      return "Não";
     } else if(palpite === "Yes"){
-      return "Sim"
+      return "Sim";
     } else if(palpite > 90) {
       return "Casa vence";
     }
@@ -127,7 +131,7 @@ function JogosDia() {
                   <Collapse onChange={onChange}>
                     <Panel header="Palpites Jogo" key="1">
                   <Timeline>
-                    <Timeline.Item color="green">Vencedor: {formatPalpite(jogo.palpite_vencedor)} - 
+                    <Timeline.Item color="green">Vencedor: {formatPalpite(jogo.palpite_vencedor)}
                     <Progress percent={jogo.palpite_vencedor_valor} size="small" status="active" />
                     </Timeline.Item>
                     <Timeline.Item color="green">Ambos Marcam: {formatPalpite(jogo.palpite_ambos)}
