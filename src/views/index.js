@@ -260,7 +260,7 @@ function JogosDia() {
 
 
                   <Collapse onChange={e => onChange([jogo.localteam_id, jogo.visitorteam_id])}>
-                    <Panel header="Estatistica Times Jogo" key="1">
+                    <Panel header="Ambos os times" key="1">
                       {renderStats()}
                     </Panel>
                   </Collapse>
