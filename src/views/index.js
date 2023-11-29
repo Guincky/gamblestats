@@ -229,7 +229,7 @@ function JogosDia() {
                   </div>
                   <Divider orientation="left">Palpites</Divider>
                   <Collapse>
-                    <Panel header="Palpites Jogo" key="1">
+                    <Panel header="Informações" key="1">
                   <Timeline>
                     <Timeline.Item color="green"><strong>Vencedor: {formatPalpite(jogo.palpite_vencedor)}</strong>
                     <Progress percent={jogo.palpite_vencedor_valor} size="small" status="active" />
