@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import moment from 'moment';
 import api from '../services/api';
 
-function JogosAmanha() {
+function Entrada() {
 
   const [jogos, setJogos] = React.useState([]);
 
@@ -143,4 +143,4 @@ function JogosAmanha() {
   );
 }
 
-export default JogosAmanha;
+export default Entrada;
