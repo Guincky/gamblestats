@@ -3,9 +3,10 @@
 }
 
 .titulo-bem-vindo {
-  color: #333; /* Cor do texto */
+  color: #FF0000; /* Cor do texto */
   font-family: 'Arial', sans-serif; /* Substitua 'Arial' pela fonte desejada */
   font-size: 24px; /* Tamanho da fonte */
+  font-weight: bold; /* Deixa o texto em negrito */
   /* Outros estilos desejados */
   display: inline-block; /* Permite centralizar usando text-align */
   margin-top: 170px; /* Ajuste opcional para o espaçamento superior */
