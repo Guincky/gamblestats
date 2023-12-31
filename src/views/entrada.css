@@ -28,12 +28,10 @@
   cursor: pointer;
   text-decoration: none; /* Remova a decoração de texto */
   font-size: 16px; /* Tamanho da fonte do botão */
-  z-index: 1
 }
 
 .botao:hover {
   background-color: #993399; /* Cor de fundo ao passar o mouse sobre o botão */
-  z-index: 1
 }
 
 .descricao {
@@ -41,103 +39,4 @@
   font-size: 18px; /* Tamanho da fonte da descrição */
   margin-top: 10px; /* Espaçamento superior da descrição */
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
-  z-index: 1
-}
-
-
-.bolas-flutuantes {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 6;
-}
-
-.bola {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  animation: flutuar 5s infinite alternate ease-in-out;
-  background: radial-gradient(ellipse at center, #ffffff 45%, #000000 45%, #000000 55%, #ffffff 55%, #ffffff 100%);
-  content: '';
-}
-
-.bola-1 {
-  top: 10%;
-  left: 10%;
-}
-
-.bola-2 {
-  top: 10%;
-  left: 90%;
-}
-
-.bola-3 {
-  top: 90%;
-  left: 10%;
-}
-
-.bola-4 {
-  top: 90%;
-  left: 90%;
-}
-
-.bola-1 {
-  top: 10%;
-  left: 10%;
-}
-
-.bola-2 {
-  top: 20%;
-  left: 30%;
-}
-
-.bola-3 {
-  top: 15%;
-  left: 60%;
-}
-
-.bola-4 {
-  top: 30%;
-  left: 80%;
-}
-
-.bola-5 {
-  top: 40%;
-  left: 20%;
-}
-
-.bola-6 {
-  top: 50%;
-  left: 50%;
-}
-
-.bola-7 {
-  top: 60%;
-  left: 80%;
-}
-
-.bola-8 {
-  top: 70%;
-  left: 40%;
-}
-
-.titulo-bem-vindo, .descricao {
-  position: relative;
-  z-index: 6; /* Garanta que o z-index dos elementos do título e da descrição seja maior */
-}
-
-/* Adicione mais estilos para outras bolas conforme necessário */
-
-@keyframes flutuar {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(20px);
-  }
 }
