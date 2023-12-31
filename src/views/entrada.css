@@ -41,13 +41,13 @@
 }
 
 .bolas-flutuantes {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 9999;
+  z-index: 0;
 }
 
 .bola {
@@ -58,6 +58,18 @@
   position: absolute;
   animation: flutuar 5s infinite alternate ease-in-out;
 }
+
+.bola:nth-child(1) {
+  top: 20%;
+  left: 30%;
+}
+
+.bola:nth-child(2) {
+  top: 60%;
+  left: 70%;
+}
+
+/* Adicione mais estilos para outras bolas conforme necessário */
 
 @keyframes flutuar {
   0% {
