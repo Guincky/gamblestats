@@ -6,19 +6,15 @@ import moment from 'moment';
 import api from '../services/api';
 import Popup from './Popup';
 
-const JogosAmanha = () => {
-  const [showPopup, setShowPopup] = useState(true);
+function JogosAmanha() {
 
+  const [jogos, setJogos] = React.useState([]);
+  const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
     setShowPopup(false);
   };
 
-
-
-function JogosAmanha() {
-
-  const [jogos, setJogos] = React.useState([]);
-
+  
   useEffect(() => {
   var dataHr = new Date();
   var dataDay = dataHr.getDate() + 1;
