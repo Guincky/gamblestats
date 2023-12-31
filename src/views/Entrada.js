@@ -1,6 +1,8 @@
 import React from 'react';
+import './SeuComponentePrincipal.css'; // Importe seu arquivo de estilo
 
 const Entrada = () => {
+  
   return (
     <div>
       <h1 className="titulo-bem-vindo">Bem-vindo ao Meu Site!</h1>
