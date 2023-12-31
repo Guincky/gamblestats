@@ -16,16 +16,13 @@ const Entrada = () => {
         </a>
     <div className="bolas-flutuantes">
            <div className="container">
-      <div className="bolas-flutuantes">
+    <div className="bolas-flutuantes">
         <div className="bola bola-1"></div>
         <div className="bola bola-2"></div>
         <div className="bola bola-3"></div>
         <div className="bola bola-4"></div>
-        <div className="bola bola-5"></div>
-        <div className="bola bola-6"></div>
-        <div className="bola bola-7"></div>
-        <div className="bola bola-8"></div>
         {/* Adicione mais bolas conforme necessário */}
+      </div>
       </div>
       </div>
     </div>
