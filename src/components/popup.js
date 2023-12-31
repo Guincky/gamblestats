@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './popup.css';
+import '../views/popup.css';
 
 const Popup = ({ message, onClose }) => {
   const [isOpen, setIsOpen] = useState(true);
