@@ -4,15 +4,10 @@ import Badge from 'react-bootstrap/Badge';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import moment from 'moment';
 import api from '../services/api';
-import Popup from '../views/Popup.js';
 
 function JogosAmanha() {
 
   const [jogos, setJogos] = React.useState([]);
-  const [showPopup, setShowPopup] = React.useState(true);
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
 
   
   useEffect(() => {
@@ -145,9 +140,6 @@ function JogosAmanha() {
     </div>
   </div>
 
-      </div>
-      {showPopup && <Popup message="Mensagem no Popup" onClose={handleClosePopup} />}
-    </div>
 
 
   );
