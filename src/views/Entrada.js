@@ -15,7 +15,6 @@ const Entrada = () => {
           <button className="botao">Jogos de amanhã</button>
         </a>
       </div>
-      </div>
     </div>
   );
 };
