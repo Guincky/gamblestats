@@ -4,8 +4,9 @@
 
 .titulo-bem-vindo {
   color: #333; /* Cor do texto */
+  font-family: 'Arial', sans-serif; /* Substitua 'Arial' pela fonte desejada */
   font-size: 24px; /* Tamanho da fonte */
   /* Outros estilos desejados */
   display: inline-block; /* Permite centralizar usando text-align */
-  margin-top: 110px; /* Ajuste opcional para o espaçamento superior */
+  margin-top: 130px; /* Ajuste opcional para o espaçamento superior */
 }
