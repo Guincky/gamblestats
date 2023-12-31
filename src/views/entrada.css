@@ -37,4 +37,5 @@
   color: #fff; /* Cor do texto da descrição */
   font-size: 18px; /* Tamanho da fonte da descrição */
   margin-top: 10px; /* Espaçamento superior da descrição */
+  margin-bottom: 10px; /* Espaçamento inferior da descrição */
 }
