@@ -9,7 +9,7 @@ import Popup from '../components/Popup';
 
 function JogosAmanha() {
 
-  const SeuComponente = () => {
+  const Popup = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [jogos, setJogos] = React.useState([]);
 
