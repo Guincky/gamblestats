@@ -57,7 +57,7 @@
   border-radius: 50%;
   position: absolute;
   animation: flutuar 5s infinite alternate ease-in-out;
-  background: radial-gradient(ellipse at center, #ffffff 50%, #2e2e2e 100%);
+  background: radial-gradient(ellipse at center, #ffffff 45%, #000000 45%, #000000 55%, #ffffff 55%, #ffffff 100%);
   content: '';
 }
 
