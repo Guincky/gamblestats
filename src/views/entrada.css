@@ -14,17 +14,15 @@
 
 .botoes-container {
   display: flex;
-  flex-direction: column; /* Coloca os botões em uma coluna */
-  align-items: center; /* Centraliza os botões horizontalmente */
 }
 
 .botao {
-  background-color: #4CAF50; /* Cor de fundo do botão */
+  background-color: #993399; /* Cor de fundo do botão */
   color: #fff; /* Cor do texto do botão */
   padding: 10px 20px; /* Espaçamento interno do botão */
   margin: 5px 0; /* Espaçamento entre botões */
   border: none; /* Remova a borda do botão, se desejar */
-  border-radius: 5px; /* Borda arredondada */
+  border-radius: 8px; /* Borda arredondada */
   cursor: pointer;
   text-decoration: none; /* Remova a decoração de texto */
   font-size: 16px; /* Tamanho da fonte do botão */
