@@ -5,27 +5,12 @@ import Badge from 'react-bootstrap/Badge';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import moment from 'moment';
 import api from '../services/api';
-import Popup from '../components/Popup';
 
 function JogosAmanha() {
 
-  const Popup = () => {
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [jogos, setJogos] = React.useState([]);
 
   const openPopup = () => setIsPopupOpen(true);
-  const closePopup = () => setIsPopupOpen(false);
-
-  return (
-    <div>
-      <button onClick={openPopup}>Abrir Popup</button>
-
-      {isPopupOpen && (
-        <Popup message="Sua mensagem aqui." onClose={closePopup} />
-      )}
-    </div>
-  );
-};
   
   useEffect(() => {
   var dataHr = new Date();
