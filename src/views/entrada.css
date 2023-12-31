@@ -14,6 +14,7 @@
 
 .botoes-container {
   display: flex;
+  justify-content: center;
 }
 
 .botao {
@@ -22,7 +23,7 @@
   padding: 10px 20px; /* Espaçamento interno do botão */
   margin: 5px 0; /* Espaçamento entre botões */
   border: none; /* Remova a borda do botão, se desejar */
-  border-radius: 8px; /* Borda arredondada */
+  border-radius: 5px; /* Borda arredondada */
   cursor: pointer;
   text-decoration: none; /* Remova a decoração de texto */
   font-size: 16px; /* Tamanho da fonte do botão */
