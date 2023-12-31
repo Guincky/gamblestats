@@ -1,5 +1,10 @@
 .container {
   text-align: center; /* Centralizar o texto */
+  background-image: url('../views/entrada.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Para cobrir todo o elemento */
+  background-position: center; /* Para centralizar a imagem */
+  height: 100vh; /* Ajuste a altura conforme necessário */
+  /* Outros estilos desejados */
 }
 
 .titulo-bem-vindo {
@@ -8,5 +13,5 @@
   font-size: 24px; /* Tamanho da fonte */
   /* Outros estilos desejados */
   display: inline-block; /* Permite centralizar usando text-align */
-  margin-top: 130px; /* Ajuste opcional para o espaçamento superior */
+  margin-top: 170px; /* Ajuste opcional para o espaçamento superior */
 }
