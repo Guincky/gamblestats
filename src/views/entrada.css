@@ -32,3 +32,9 @@
 .botao:hover {
   background-color: #993399; /* Cor de fundo ao passar o mouse sobre o botão */
 }
+
+.descricao {
+  color: #fff; /* Cor do texto da descrição */
+  font-size: 18px; /* Tamanho da fonte da descrição */
+  margin-top: 10px; /* Espaçamento superior da descrição */
+}
