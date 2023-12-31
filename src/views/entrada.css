@@ -10,6 +10,7 @@
   /* Outros estilos desejados */
   display: inline-block; /* Permite centralizar usando text-align */
   margin-top: 100px; /* Ajuste opcional para o espaçamento superior */
+  z-index: 1
 }
 
 .botoes-container {
@@ -38,13 +39,9 @@
   font-size: 18px; /* Tamanho da fonte da descrição */
   margin-top: 10px; /* Espaçamento superior da descrição */
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
+  z-index: 2
 }
 
-
-.titulo-bem-vindo, .descricao {
-  position: relative;
-  z-index: 1; /* Garanta que o z-index dos elementos do título e da descrição seja maior */
-}
 
 .bolas-flutuantes {
   position: absolute;
@@ -53,7 +50,7 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 0;
+  z-index: 6;
 }
 
 .bola {
@@ -127,6 +124,10 @@
   left: 40%;
 }
 
+.titulo-bem-vindo, .descricao {
+  position: relative;
+  z-index: 6; /* Garanta que o z-index dos elementos do título e da descrição seja maior */
+}
 
 /* Adicione mais estilos para outras bolas conforme necessário */
 
