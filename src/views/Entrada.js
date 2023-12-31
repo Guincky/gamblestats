@@ -6,7 +6,7 @@ const Entrada = () => {
   return (
     <div className="container">
       <h1 className="titulo-bem-vindo">GAMBLESTATS</h1>
-    <p className="descricao">Analises geradas por inteligencia artifical para lhe fornecer informações privilegiadas. Lembre-se que são estastisticas e não palpites!.</p>
+    <p className="descricao">Análises geradas por inteligência artifical para lhe fornecer informações privilegiadas. Lembre-se que são estastísticas e não palpites!</p>
       <div className="botoes-container">
         <a href="/hoje">
         <button className="botao">Jogos de hoje</button>
