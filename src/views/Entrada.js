@@ -7,10 +7,10 @@ const Entrada = () => {
     <div className="container">
       <h1 className="titulo-bem-vindo">GAMBLESTATS</h1>
       <div className="botoes-container">
-        <a href="/jogosdehoje">
+        <a href="/hoje">
         <button className="botao">Jogos de hoje</button>
         </a>
-        <a href="/jogosdeamanha">
+        <a href="/amanha">
           <button className="botao">Jogos de amanhã</button>
         </a>
       </div>
