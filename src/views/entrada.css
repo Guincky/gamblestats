@@ -40,6 +40,12 @@
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
 }
 
+
+.titulo-bem-vindo, .descricao {
+  position: relative;
+  z-index: 1; /* Garanta que o z-index dos elementos do título e da descrição seja maior */
+}
+
 .bolas-flutuantes {
   position: absolute;
   top: 0;
