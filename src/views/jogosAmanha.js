@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import React, { useState } from 'react';
 import Popup from '../components/Popup';
 import Table from 'react-bootstrap/Table';
 import Badge from 'react-bootstrap/Badge';
