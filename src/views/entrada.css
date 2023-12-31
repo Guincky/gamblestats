@@ -1,6 +1,6 @@
 .container {
   text-align: center; /* Centralizar o texto */
-  background-image: url('../views/entrada.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-image: url('../views/entrada.avif'); /* Substitua pelo caminho da sua imagem */
   background-size: cover; /* Para cobrir todo o elemento */
   background-position: center; /* Para centralizar a imagem */
   height: 100vh; /* Ajuste a altura conforme necessário */
