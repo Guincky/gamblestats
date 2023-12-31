@@ -53,7 +53,7 @@ bolas-flutuantes {
 .bola {
   width: 50px;
   height: 50px;
-  background-image: url('https://w7.pngwing.com/pngs/502/785/png-transparent-soccer-football-ball-image-black-white-thumbnail.png'); /* Substitua pelo caminho da sua imagem */
+  background-image: url('../views/bola.avif'); /* Substitua pelo caminho da sua imagem */
   background-size: cover;
   border-radius: 50%;
   position: absolute;
