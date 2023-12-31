@@ -1,5 +1,5 @@
 import React from 'react';
-import './SeuComponentePrincipal.css'; // Importe seu arquivo de estilo
+import '../views/entrada.css'; // Importe seu arquivo de estilo
 
 const Entrada = () => {
   
