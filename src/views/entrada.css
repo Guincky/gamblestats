@@ -40,7 +40,7 @@
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
 }
 
-.bolas-flutuantes {
+bolas-flutuantes {
   position: absolute;
   top: 0;
   left: 0;
@@ -53,12 +53,12 @@
 .bola {
   width: 50px;
   height: 50px;
-  background-color: #fff; /* Cor da bola, você pode adicionar uma imagem de uma bola de futebol aqui */
+  background-image: url('https://w7.pngwing.com/pngs/502/785/png-transparent-soccer-football-ball-image-black-white-thumbnail.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
   border-radius: 50%;
   position: absolute;
   animation: flutuar 5s infinite alternate ease-in-out;
 }
-
 .bola:nth-child(1) {
   top: 20%;
   left: 30%;
