@@ -1,4 +1,6 @@
 import React, { useEffect } from 'react';
+import React, { useState } from 'react';
+import Popup from '../components/Popup';
 import Table from 'react-bootstrap/Table';
 import Badge from 'react-bootstrap/Badge';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,8 +9,23 @@ import api from '../services/api';
 
 function JogosAmanha() {
 
+  const SeuComponente = () => {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [jogos, setJogos] = React.useState([]);
 
+  const openPopup = () => setIsPopupOpen(true);
+  const closePopup = () => setIsPopupOpen(false);
+
+  return (
+    <div>
+      <button onClick={openPopup}>Abrir Popup</button>
+
+      {isPopupOpen && (
+        <Popup message="Sua mensagem aqui." onClose={closePopup} />
+      )}
+    </div>
+  );
+};
   
   useEffect(() => {
   var dataHr = new Date();
