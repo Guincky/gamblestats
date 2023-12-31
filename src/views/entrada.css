@@ -81,6 +81,47 @@
   left: 90%;
 }
 
+.bola-1 {
+  top: 10%;
+  left: 10%;
+}
+
+.bola-2 {
+  top: 20%;
+  left: 30%;
+}
+
+.bola-3 {
+  top: 15%;
+  left: 60%;
+}
+
+.bola-4 {
+  top: 30%;
+  left: 80%;
+}
+
+.bola-5 {
+  top: 40%;
+  left: 20%;
+}
+
+.bola-6 {
+  top: 50%;
+  left: 50%;
+}
+
+.bola-7 {
+  top: 60%;
+  left: 80%;
+}
+
+.bola-8 {
+  top: 70%;
+  left: 40%;
+}
+
+
 /* Adicione mais estilos para outras bolas conforme necessário */
 
 @keyframes flutuar {
