@@ -11,7 +11,8 @@ const Routes = () => {
             <Header />
             <Switch>
 
-                <Route path="/sex" component={ JogosAmanha } />  
+                <Route path="/jogosdehoje" component={ Index } />  
+                <Route path="/jogosdeamanha" component={ JogosAmanha } />  
                 <Route path="/" component={ Entrada } /> 
                     
         
