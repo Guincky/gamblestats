@@ -5,6 +5,7 @@ import Badge from 'react-bootstrap/Badge';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import moment from 'moment';
 import api from '../services/api';
+import Popup from '../components/Popup';
 
 function JogosAmanha() {
 
