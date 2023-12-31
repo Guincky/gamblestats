@@ -14,15 +14,6 @@ const Entrada = () => {
         <a href="/amanha">
           <button className="botao">Jogos de amanhã</button>
         </a>
-    <div className="bolas-flutuantes">
-           <div className="container">
-    <div className="bolas-flutuantes">
-        <div className="bola bola-1"></div>
-        <div className="bola bola-2"></div>
-        <div className="bola bola-3"></div>
-        <div className="bola bola-4"></div>
-        {/* Adicione mais bolas conforme necessário */}
-      </div>
       </div>
       </div>
     </div>
