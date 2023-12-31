@@ -28,11 +28,12 @@
   cursor: pointer;
   text-decoration: none; /* Remova a decoração de texto */
   font-size: 16px; /* Tamanho da fonte do botão */
-  z-index: 3
+  z-index: 1
 }
 
 .botao:hover {
   background-color: #993399; /* Cor de fundo ao passar o mouse sobre o botão */
+  z-index: 1
 }
 
 .descricao {
@@ -40,7 +41,7 @@
   font-size: 18px; /* Tamanho da fonte da descrição */
   margin-top: 10px; /* Espaçamento superior da descrição */
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
-  z-index: 2
+  z-index: 1
 }
 
 
