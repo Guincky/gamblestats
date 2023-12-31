@@ -1,5 +1,11 @@
+.container {
+  text-align: center; /* Centralizar o texto */
+}
+
 .titulo-bem-vindo {
   color: #333; /* Cor do texto */
   font-size: 24px; /* Tamanho da fonte */
   /* Outros estilos desejados */
+  display: inline-block; /* Permite centralizar usando text-align */
+  margin-top: 50px; /* Ajuste opcional para o espaçamento superior */
 }
