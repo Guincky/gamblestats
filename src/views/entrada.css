@@ -53,10 +53,12 @@
 .bola {
   width: 50px;
   height: 50px;
-  background-color: #fff; /* Cor da bola, você pode adicionar uma imagem de uma bola de futebol aqui */
+  background-color: white;
   border-radius: 50%;
   position: absolute;
   animation: flutuar 5s infinite alternate ease-in-out;
+  background: radial-gradient(ellipse at center, #ffffff 50%, #2e2e2e 100%);
+  content: '';
 }
 
 .bola-1 {
