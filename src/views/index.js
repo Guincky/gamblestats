@@ -16,13 +16,13 @@ function JogosDia() {
   const [loadingTeams , setLoadingTeams] = useState(true);
   const [showWelcomePopup, setShowWelcomePopup] = useState(true);
 
-// Exemplo de como fechar o popup após 5 segundos
   useEffect(() => {
-    setTimeout(() => {
-      setShowWelcomePopup(false);
-    }, 5000);
-  }, []);
-
+  setTimeout(() => {
+    setShowWelcomePopup(false);
+    console.log(showWelcomePopup); // Verifique se a variável está sendo alterada corretamente
+  }, 5000);
+}, []);
+  
   return (
     <>
       {/* Popup de boas-vindas */}
