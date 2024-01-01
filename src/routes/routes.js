@@ -11,9 +11,9 @@ const Routes = () => {
             <Switch>
 
                 <Route path="/hoje" component={ JogosDia } />  
-                <Route path="/amanha" component={ JogosAmanha } />  
-                <Route path="/" component={ Entrada } /> 
                 <Route path="/sorteio" component={ Sorteio } /> 
+                <Route path="/amanha" component={ JogosAmanha } />  
+                <Route path="/" component={ Entrada } />  
                     
         
             </Switch>
