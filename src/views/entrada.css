@@ -30,10 +30,6 @@
   display: inline-block; /* Permite centralizar usando text-align */
   margin-top: 100px; /* Ajuste opcional para o espaçamento superior */
   z-index: 1
-  background: linear-gradient(to right, #FFD700, #FF8C00); /* Gradiente dourado */
-  -webkit-background-clip: text;
-  color: transparent;
-
 }
 
 .botoes-container {
