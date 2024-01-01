@@ -6,11 +6,12 @@ import api from '../services/api';
 import { Badge, Card, Avatar, Progress, Divider, Timeline, Collapse, Skeleton, Spin, Descriptions} from 'antd';
 const { Panel } = Collapse;
 
-
-
-
-
-
+return (
+  <>
+    <div className="site-card-wrapper" style={{ marginTop: '20px' }}>
+    </div>
+  </>
+);
 
 function JogosDia() {
 
@@ -29,7 +30,6 @@ function JogosDia() {
     const response = await api.get('/eventApi/'+ dataHrFormatada2 + '/-240/web_mfdz408n8lkuevmq');
     var data = response.data;
     var jogos = data.data;
-
 
 
     var jogosArray = [];
