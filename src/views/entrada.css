@@ -6,7 +6,7 @@
   height: 100vh; /* Defina uma altura para ocupar a tela inteira (pode ajustar conforme necessário) */
   text-align: center; /* Centralize o texto horizontalmente */
   position: relative;
-  bottom: 50px;
+  bottom: 40px;
 }
 
 .titulo-bem-vindo {
