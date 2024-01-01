@@ -14,7 +14,29 @@ function JogosDia() {
   const [loadingTeams , setLoadingTeams] = useState(true);
   const [showWelcomePopup, setShowWelcomePopup] = useState(true);
 
+// Exemplo de como fechar o popup após 5 segundos
+  useEffect(() => {
+    setTimeout(() => {
+      setShowWelcomePopup(false);
+    }, 5000);
+  }, []);
 
+  return (
+    <>
+      {/* Popup de boas-vindas */}
+      {showWelcomePopup && (
+        <Modal
+          title="Bem-vindo ao nosso site!"
+          visible={showWelcomePopup}
+          footer={[
+            <Button key="close" type="primary" onClick={() => setShowWelcomePopup(false)}>
+              Fechar
+            </Button>,
+          ]}
+        >
+          <p>Seja bem-vindo ao nosso site! Conteúdo do popup aqui.</p>
+        </Modal>
+      )}
 
 
   useEffect(() => {
@@ -174,12 +196,6 @@ function JogosDia() {
       </div>
     )
   } else {
-
- // Exemplo de como fechar o popup após 5 segundos
-    setTimeout(() => {
-      setShowWelcomePopup(false);
-    }, 5000);
-  }, []);
     
     
   return (
@@ -229,20 +245,6 @@ function JogosDia() {
                     }}
                   />
 
-                        {/* Popup de boas-vindas */}
-      {showWelcomePopup && (
-        <Modal
-          title="Bem-vindo ao nosso site!"
-          visible={showWelcomePopup}
-          footer={[
-            <Button key="close" type="primary" onClick={() => setShowWelcomePopup(false)}>
-              Fechar
-            </Button>,
-          ]}
-        >
-          <p>Seja bem-vindo ao nosso site! Conteúdo do popup aqui.</p>
-        </Modal>
-      )}
                     
                   </div>
                   <Divider orientation="left">Palpites</Divider>
