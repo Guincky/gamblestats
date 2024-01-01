@@ -37,19 +37,6 @@
 
 }
 
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-10px);
-  }
-  60% {
-    transform: translateY(-5px);
-  }
-}
-
 .botoes-container {
   display: flex;
   justify-content: center;
@@ -78,3 +65,16 @@
   margin-top: 10px; /* Espaçamento superior da descrição */
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
 }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
