@@ -14,25 +14,6 @@ function JogosDia() {
   const [teams , setTeams] = useState([]);
   const [loadingStats , setLoadingStats] = useState(true);
   const [loadingTeams , setLoadingTeams] = useState(true);
-  const [showWelcomePopup, setShowWelcomePopup] = useState(true);
-  
-  return (
-    <>
-      {/* Popup de boas-vindas */}
-      {showWelcomePopup && (
-        <Modal
-          title="Bem-vindo ao nosso site!"
-          visible={showWelcomePopup}
-          footer={[
-            <Button key="close" type="primary" onClick={() => setShowWelcomePopup(false)}>
-              Fechar
-            </Button>,
-          ]}
-        >
-          <p>Seja bem-vindo ao nosso site! Conteúdo do popup aqui.</p>
-        </Modal>
-      )}
-
 
   useEffect(() => {
   var dataHr = new Date();
