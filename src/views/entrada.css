@@ -12,7 +12,7 @@
 }
 
 #root{
-  background-image: url('../views/fundo.jpg'); /* Substitua pelo caminho real da sua imagem */
+  background-image: url('../views/fundos.jpg'); /* Substitua pelo caminho real da sua imagem */
   background-size: cover;
     background-repeat: no-repeat;
   background-position: center; /* Centraliza a imagem */
