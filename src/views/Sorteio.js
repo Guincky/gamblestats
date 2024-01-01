@@ -4,7 +4,7 @@ import '../views/entrada.css'; // Importe seu arquivo de estilo
 const Sorteio = () => {
   const redirecionarParaOutroSite = () => {
     // Substitua 'https://www.seusiteexterno.com' pelo URL do site externo para o qual deseja redirecionar
-    window.location.href = 'https://www.seusiteexterno.com';
+    window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSc0ruDnqYS7g8NdSAB55KjFCxcNEsu7V6asi7B1kYictNcjLA/viewform?usp=sf_link';
   };
 
   return (
