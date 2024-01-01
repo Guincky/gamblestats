@@ -14,6 +14,9 @@ const Entrada = () => {
         <a href="/amanha">
           <button className="botao">Jogos de amanhã</button>
         </a>
+          <a href="/sorteio">
+          <button className="botao">Ganhe 5mil reais</button>
+        </a>
       </div>
     </div>
   );
