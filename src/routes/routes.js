@@ -7,7 +7,6 @@ import JogosAmanha from "../views/jogosAmanha";
 const Routes = () => {
     return (
         <Router>
-            <Header />
             <Switch>
 
                 <Route path="/hoje" component={ JogosDia } />  
