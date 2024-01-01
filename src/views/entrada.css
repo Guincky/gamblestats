@@ -39,19 +39,20 @@
 }
 
 .botao {
-  background-color: #993399; /* Cor de fundo do botão */
+  background-color: #008000; /* Cor de fundo do botão */
   color: #fff; /* Cor do texto do botão */
   padding: 10px 20px; /* Espaçamento interno do botão */
   margin: 0 10px; /* Espaçamento entre botões */
   border: none; /* Remova a borda do botão, se desejar */
-  border-radius: 8px; /* Borda arredondada */
+  border-radius: 15px; /* Borda arredondada */
   cursor: pointer;
   text-decoration: none; /* Remova a decoração de texto */
   font-size: 16px; /* Tamanho da fonte do botão */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .botao:hover {
-  background-color: #993399; /* Cor de fundo ao passar o mouse sobre o botão */
+  background-color: #008000; /* Cor de fundo ao passar o mouse sobre o botão */
 }
 
 .descricao {
