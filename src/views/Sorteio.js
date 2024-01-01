@@ -1,7 +1,7 @@
 import React from 'react';
 import '../views/entrada.css'; // Importe seu arquivo de estilo
 
-const Entrada = () => {
+const Sorteio = () => {
   
   return (
     <div className="container">
@@ -16,4 +16,4 @@ const Entrada = () => {
   );
 };
 
-export default Entrada;
+export default Sorteio;
