@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Defina uma altura para ocupar a tela inteira (pode ajustar conforme necessário) */
-  text-align: center; /* Centralize o texto horizontalmente */
+  height: 100vh; /* Defina uma altura Epara ocupar a tela inteira (pode ajustar conforme necessário) */
+  text-align: center; /* Centralize o texto horizontalmente *
   position: relative;
   bottom: 40px;
   color: #FFFFFF; /* Define a cor do texto, já que a imagem pode ser escura */
