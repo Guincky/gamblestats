@@ -33,7 +33,6 @@
   background: linear-gradient(to right, #FFD700, #FF8C00); /* Gradiente dourado */
   -webkit-background-clip: text;
   color: transparent;
-  animation: bounce 1s infinite; /* Adiciona uma animação de balanço infinita */
 
 }
 
@@ -65,16 +64,3 @@
   margin-top: 10px; /* Espaçamento superior da descrição */
   margin-bottom: 25px; /* Espaçamento inferior da descrição */
 }
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-10px);
-  }
-  60% {
-    transform: translateY(-5px);
-  }
-}
-
