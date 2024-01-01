@@ -15,13 +15,6 @@ function JogosDia() {
   const [loadingStats , setLoadingStats] = useState(true);
   const [loadingTeams , setLoadingTeams] = useState(true);
   const [showWelcomePopup, setShowWelcomePopup] = useState(true);
-
-  useEffect(() => {
-  setTimeout(() => {
-    setShowWelcomePopup(false);
-    console.log(showWelcomePopup); // Verifique se a variável está sendo alterada corretamente
-  }, 5000);
-}, []);
   
   return (
     <>
