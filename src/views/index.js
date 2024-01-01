@@ -6,13 +6,6 @@ import api from '../services/api';
 import { Badge, Card, Avatar, Progress, Divider, Timeline, Collapse, Skeleton, Spin, Descriptions} from 'antd';
 const { Panel } = Collapse;
 
-return (
-  <>
-    <div className="site-card-wrapper" style={{ marginTop: '20px' }}>
-    </div>
-  </>
-);
-
 function JogosDia() {
 
   const [jogos, setJogos] = useState([]);
@@ -188,6 +181,7 @@ function JogosDia() {
         <div className="row"
           style={{
             display: 'flex',
+            marginTop: '20px',
             justifyContent: 'center',
           }}
         >
