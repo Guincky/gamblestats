@@ -7,13 +7,18 @@
   text-align: center; /* Centralize o texto horizontalmente */
   position: relative;
   bottom: 40px;
-  background-image: url('../views/fundo.jpg'); /* Substitua pelo caminho real da sua imagem */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; /* Centraliza a imagem */
   color: #FFFFFF; /* Define a cor do texto, já que a imagem pode ser escura */
   overflow: hidden;
 }
+
+#root{
+  background-image: url('../views/fundo.jpg'); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover;
+    background-repeat: no-repeat;
+  background-position: center; /* Centraliza a imagem */
+}
+
+  
 
 .titulo-bem-vindo {
   color: #FFFFFF; /* Cor do texto */
