@@ -12,6 +12,8 @@ function JogosDia() {
   const [teams , setTeams] = useState([]);
   const [loadingStats , setLoadingStats] = useState(true);
   const [loadingTeams , setLoadingTeams] = useState(true);
+  const [showWelcomePopup, setShowWelcomePopup] = useState(true);
+
 
 
 
