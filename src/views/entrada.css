@@ -23,7 +23,7 @@
 .titulo-bem-vindo {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra suave */
   color: #FFFFFF; /* Cor do texto */
-  font-family: 'bold', sans-serif; /* Substitua 'Arial' pela fonte desejada */
+  font-style: bold; /* Ou use 'cursive', 'bold', etc. */
   font-size: 24px; /* Tamanho da fonte */
   font-weight: bold; /* Deixa o texto em negrito */
   /* Outros estilos desejados */
